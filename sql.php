@@ -1,0 +1,10 @@
+CREATE DATABASE quanlysinhvien;
+CREATE TABLE IF NOT EXISTS students(
+   id INT(11) AUTO_INCREMENT,
+   name VARCHAR(255) NOT NULL, 
+    age INT(11) NOT NULL, 
+    avatar VARCHAR(255) DEFAULT NULL,
+   description TEXT DEFAULT NULL, 
+   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
